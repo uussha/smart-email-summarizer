@@ -15,8 +15,7 @@ A simple tool that summarizes long emails or articles using a local NLP backend 
 
 1. Install Python dependencies:
 
-```bash
-cd "c:\Users\Asus\Desktop\New folder\backend"
+```bash 
 pip install -r requirements.txt
 ```
 
