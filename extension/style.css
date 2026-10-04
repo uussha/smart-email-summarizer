@@ -1,0 +1,80 @@
+:root {
+  font-family: Arial, sans-serif;
+  color: #111;
+  background: #f6f8fc;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 340px;
+  padding: 16px;
+}
+
+h1 {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+p {
+  margin: 0 0 12px 0;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+textarea {
+  width: 100%;
+  min-height: 130px;
+  padding: 10px;
+  border: 1px solid #d1d7e0;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  resize: vertical;
+}
+
+.button-row {
+  display: flex;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+button {
+  flex: 1;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+button#pasteSelection {
+  background: #556cd6;
+  color: white;
+}
+
+button#summarize {
+  background: #22b573;
+  color: white;
+}
+
+.output-section {
+  margin-top: 16px;
+}
+
+.summary-box {
+  min-height: 100px;
+  white-space: pre-wrap;
+  background: white;
+  border: 1px solid #d1d7e0;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.status {
+  margin-top: 12px;
+  color: #333;
+  font-size: 0.9rem;
+}

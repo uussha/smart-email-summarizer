@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart Email Summarizer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Summarizer</h1>
+    <p>Paste or use selected text from the active tab.</p>
+
+    <textarea id="sourceText" placeholder="Paste email or article text here..."></textarea>
+    <div class="button-row">
+      <button id="pasteSelection">Use selected text</button>
+      <button id="summarize">Summarize</button>
+    </div>
+
+    <div class="output-section">
+      <h2>Summary</h2>
+      <div id="summary" class="summary-box"></div>
+      <div id="metrics" class="status"></div>
+    </div>
+
+    <div id="status" class="status"></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

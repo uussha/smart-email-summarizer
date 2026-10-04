@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Smart Email Summarizer",
+  "version": "1.0",
+  "description": "Summarize long emails and articles with a local NLP backend.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Smart Email Summarizer"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["selection.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
